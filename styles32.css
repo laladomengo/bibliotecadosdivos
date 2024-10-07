@@ -1,0 +1,152 @@
+/* Centralizar imagem */
+img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    height: 300px;
+    width: 300px;
+}
+
+/* Estilizar o título h1 */
+h1 {
+    border-bottom: 3px inset #4CAF50; /* Linha verde com efeito inset abaixo do título */
+    padding-bottom: 10px; /* Espaçamento entre o título e a linha */
+    text-align: center; /* Centralizar o texto */
+    color: #4CAF50; /* Cor verde do texto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Preto para fundo */
+    color: #f0f0f0; /* Cinza claro para o texto */
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #222; /* Fundo cinza-escuro para os blocos */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Verde vibrante */
+}
+
+/* Títulos de seções */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Verde vibrante */
+    border-bottom: 2px solid #4CAF50; /* Linha verde sob o título */
+    padding-bottom: 10px;
+}
+
+/* Estilo dos formulários */
+form {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #333; /* Fundo cinza escuro */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4CAF50; /* Bordas verdes */
+    border-radius: 4px;
+    background-color: #222; /* Fundo escuro */
+    color: #f0f0f0; /* Texto claro */
+}
+
+form input[type="submit"], button {
+    background-color: #4CAF50; /* Verde vibrante */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover, button:hover {
+    background-color: #45a049; /* Tom de verde mais escuro ao passar o mouse */
+}
+
+/* Tabelas de dados */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+table thead {
+    background-color: #4CAF50; /* Verde para o cabeçalho */
+    color: white;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #333; /* Cor alternada para linhas da tabela */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #2b2b2b;
+}
+
+table tbody tr:hover {
+    background-color: #444; /* Efeito de hover para destacar a linha */
+}
+
+table th {
+    background-color: #4CAF50; /* Verde para o cabeçalho */
+}
+
+/* Barra de pesquisa */
+#search-borrower {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    background-color: #222;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+}
+
+/* Rodapé com direitos autorais */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #4CAF50;
+    font-size: 1rem;
+    margin-top: 40px;
+    border-top: 1px solid #4CAF50;
+}
+
+footer p {
+    margin: 0;
+}
